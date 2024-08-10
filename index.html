@@ -116,7 +116,7 @@
             roulette.init(items);
             const btnStart = document.getElementById("mainImage");
 
-            const value_to_index = {59: 0, 65: 1, 60: 2, 89: 3, 91: 4, 119: 5};
+            const value_to_index = {4: 0, 2: 1, 5: 2, 7: 3, 6: 4, 14: 5, 1: 6, 15: 7, 9: 8, 10: 9, 19: 10, 3: 11};
 
             roulette.start(value_to_index[cash]);
         
@@ -128,12 +128,18 @@
 
     function showModal() {
             const images = {
-                59: 'гифки выпадения/necromancer.gif',
-                65: 'гифки выпадения/Famas.gif',
-                60: 'гифки выпадения/AWM-Festal-Wrap.gif',
-                89: 'гифки выпадения/AKR12-Geometric.gif',
-                91: 'гифки выпадения/bubblegum.gif',
-                119: 'гифки выпадения/AKR-Tag-King.gif'
+                4: 'lucky-star-sticker.gif',
+                2: 'p350-Skull.gif',
+                5: 'G22-StarFall.gif', 
+                7: 'AKR12-Carbon.gif',
+                6: 'FnFal-Tactical.gif',
+                14: 'm4-lizard.gif',
+                1: 'P90-Pilot.gif',
+                15: 'Sticker-Nice-Skill.gif',
+                9: 'Sticker-Safety-First.gif',
+                10: 'Fragment-Legendary.gif',
+                19: 'Tec-9-Fable.gif',
+                3: 'Graffiti-Oasis.gif'
             };
 
             // Устанавливаем изображение в зависимости от значения cash
